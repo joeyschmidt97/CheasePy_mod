@@ -1,0 +1,11 @@
+name: cheasepy
+channels:
+  - conda-forge
+dependencies:
+  - h5py
+  - matplotlib
+  - numpy
+  - python=3.9
+  - scipy
+  - ipykernel
+prefix: /global/homes/j/joeschm/.conda/envs/cheasepy
