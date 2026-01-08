@@ -4,14 +4,16 @@
 import os
 import sys
 import f90nml
-import mathtools
-import cheasefiles
 import numpy as npy
 
 from glob       import glob
 from subprocess import Popen, PIPE
 from matplotlib import pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
+
+from CheasePy_mod.src import mathtools
+from CheasePy_mod.src import cheasefiles
+
 
 
 if   sys.version_info.major == 3:
